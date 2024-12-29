@@ -3,7 +3,7 @@ Web version of Android Kasa app.
 
 Spending most of my time on my laptop or my desktop I wanted to be able to have the same KASA app display as on my Android.  What you'll find here is A) A php web page that looks (sort'a) like the smartphone app.  B) A external program found here on github. HS100 C code. C) A php script to find and save a list of all of your smart switches and plugs.
 
-C:  run_update.php runs "arp_scan" to find the IP addresses of the smart switches and plugs in your network and creates a file in the "/run" tmpfs.  This file is accessed by the web page.
+C:  run_update.php runs "arp_scan" to find the IP addresses of the smart switches and plugs in your network and creates a file in the "/run" tmpfs.  This file is accessed by the web page.  It assumes your /etc/hosts file has all of your IP's with names. So the kasa_device_list contains ie: 192.168.0.214 or foo214 or whatever.
 
 B:  HS100.c an external program found here in/on github.  Download separately, compile and save in the web sub-directory.
 
