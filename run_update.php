@@ -26,8 +26,7 @@ $arps =  str_replace ('	', '|', $arps);
         $word = substr ($word, 0, $n);
 	$add = "";
 	exec ("grep $mac[0] /etc/hosts | awk '{print $2}'",$add);
- #       exec ("echo '$add[0]' >> /run/kasa_device_list");;
-fputs ($fd,   "$add[0]\n");
+        fputs ($fd,   "$add[0]\n");
       }
     }
   }
