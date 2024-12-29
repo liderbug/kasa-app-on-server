@@ -11,4 +11,5 @@ A: index.php - the web page that does it all.   Hopefully it's written so you ca
 
 After installing A, B, and C.  Run "sudo php run_update.php".  It will create the file "/run/kasa_device_list".  You may have to install "arp_scan".  Then you should be able to browser:  https[s]://[server]/kasa/index.php 
 
-  
+Is is pretty? Eh... it's functional.
+
