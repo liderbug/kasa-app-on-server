@@ -1,3 +1,4 @@
+
 # this file goes in /var/www/html/kasa/index.php
 
 <head> 
@@ -67,3 +68,4 @@
 
   echo "<meta http-equiv='refresh' content='$refresh_time;url=index.php' />";
   $refresh_time = 30;
+
