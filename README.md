@@ -4,7 +4,7 @@ Web version of Android Kasa app.
 
 Spending most of my time on my laptop or my desktop (and my smartphone is NOT attached to the end of my arm) I wanted to be able to have the same KASA app display as on my Android. What you'll find here is:
 
- A) A php web page that looks (sort'a) like the smartphone app.
+ A) A php web page that looks (sort'a) like the smartphone app.  See the file kasa.png
 
 B) A external program found here on github.  Python-Kasa.
 
